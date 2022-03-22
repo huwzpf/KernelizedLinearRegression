@@ -51,7 +51,7 @@ def train(x, y, learning_rate, steps):
 
 
 def main():
-    data = pd.read_csv('C:/Users/PCu/Data/data_linear.csv').dropna()
+    data = pd.read_csv('data.csv').dropna()
     train(data.iloc[:, :-1].to_numpy(), data.iloc[:, -1].to_numpy(), 0.001, 1000)
 
 
