@@ -1,2 +1,3 @@
-A simple implementation of linear regression algorithm with usage of kernel trick.
+A simple implementation of linear regression ( working on 1 dimensional data) algorithm with usage of kernel trick.
+
 More detailed information can be found in KernelizedLinearRegression.ipynb
